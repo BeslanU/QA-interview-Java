@@ -9,9 +9,10 @@ public class ReverseArray {
 		char c = s[left];
 		s[left] = s[right];
 		s[right] = c;
-
 		left += 1;
+		
 		right -= 1;
+		
 		}
 		for (int i = 0; i < s.length; i++) {
 		System.out.print(s[i] + " ");
